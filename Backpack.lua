@@ -2,7 +2,7 @@ fortheplr = game.Players.LocalPlayer.Character.Torso
 ----------------------------------------------------
 a1=Instance.new("Model",fortheplr)
 a1.Name = "Building Backpack"
-a= Instance.new("Part",a1)
+a = Instance.new("Part",a1)
 a.Color = Color3.new(255,255,255)
 a.FormFactor = "Custom"
 a.Size = Vector3.new(2,2,1)
