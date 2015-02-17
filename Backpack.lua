@@ -67,4 +67,4 @@ g.Color = Color3.new(255,255,255)
 gw=Instance.new("Weld",g)
 gw.Part0=g
 gw.Part1=f
-gw.C0=CFrame.new(0,1,0)
+gw.C0=CFrame.new(0,2,0)
