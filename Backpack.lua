@@ -60,10 +60,10 @@ fw.Part1=f
 g=Instance.new("Part",f)
 g.Name = "Cuff"
 Instance.new("CylinderMesh",g)
-g.Size = Vector3.new(1,1,1)
+g.Size = Vector3.new(1,0.1,1)
 g.Color = Color3.new(255,255,255)
 
 gw=Instance.new("Weld",g)
 gw.Part0=g
 gw.Part1=f
-gw.C0=CFrame.new(0,-3,0)
+gw.C0=CFrame.new(0,3,0)
