@@ -48,10 +48,9 @@ ew.C0=CFrame.new(0,0,-0.5)
 
 
 f=Instance.new("Part",a)
-f.Size = game.Players.LocalPlayer.Character["Left Leg"].Size
+f.Size = Vector3.new(1,4,1)
 f.Name = "Left Leg"
 f.Color = Color3.new(0,0,0)
-f.Material = "Marble"
 
 fw=Instance.new("Weld",f)
 fw.Part0=game.Players.LocalPlayer.Character["Left Leg"]
