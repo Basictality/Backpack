@@ -2,7 +2,8 @@ fortheplr = game.Players.LocalPlayer.Character.Torso
 ----------------------------------------------------
 a1=Instance.new("Model",fortheplr)
 a1.Name = "Building Backpack"
-a = Instance.new("Part",a1)
+a= Instance.new("Part",a1)
+a.Color = Color3.new(255,255,255)
 a.FormFactor = "Custom"
 a.Size = Vector3.new(2,2,1)
 a.BrickColor = BrickColor.new("Really black")
@@ -17,7 +18,8 @@ b.C0=CFrame.new(0,0,1)
 
 c = Instance.new("Part",a1)
 Instance.new("CylinderMesh",c)
-c.FormFactor = "Custom"
+c.FormFactor = "Custom
+c.Color = Color3.new(255,255,255)
 c.CanCollide = false
 c.Size = Vector3.new(0.5,0.1,0.5)
 
@@ -30,6 +32,7 @@ d = Instance.new("Part",a)
 d.Name = "2p"
 d.FormFactor = "Custom"
 Instance.new("CylinderMesh",d)
+d.Color = Color3.new(255,255,255)
 d.Size = Vector3.new(0.5,0.1,0.5)
 
 dw=Instance.new("Weld",c)
@@ -38,6 +41,7 @@ dw.Part1=a
 dw.C0=CFrame.new(-0.5,-1.1,0)
 
 e=Instance.new("Part",a)
+e.Color = Color3.new(255,255,255)
 e.FormFactor = "Custom"
 e.Size = Vector3.new(2,0.8,0)
 
