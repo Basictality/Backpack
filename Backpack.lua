@@ -41,10 +41,7 @@ e=Instance.new("Part",a)
 e.FormFactor = "Custom"
 e.Size = Vector3.new(2,0.8,0)
 
-ew=Instance.new("Weld",e)
-ew.Part0=e
-ew.Part1=a
-ew.C0=CFrame.new(0,0,-0.5)
+
 
 p=game.Players.LocalPlayer
 c=p.Character
