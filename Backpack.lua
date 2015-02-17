@@ -48,7 +48,7 @@ ew.C0=CFrame.new(0,0,-0.5)
 
 
 f=Instance.new("Part",a)
-f.Size = Vector3.new(1,4,1)
+f.Size = Vector3.new(1,2.5,1)
 f.Name = "Left Leg"
 f.Color = Color3.new(0,0,0)
 
