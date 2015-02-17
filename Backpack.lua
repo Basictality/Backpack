@@ -60,6 +60,7 @@ fw.Part1=f
 g=Instance.new("Part",f)
 g.Name = "Cuff"
 Instance.new("CylinderMesh",g)
+g.FormFactor = "Custom"
 g.Size = Vector3.new(1,0.1,1)
 g.Color = Color3.new(255,255,255)
 
