@@ -62,6 +62,9 @@ kw=Instance.new("Weld",a)
 kw.Part0=k
 kw.Part1=e
 k.Size = Vector3.new(10,2,1)
-k.Material = "DiamondPlate"
+k.Material = "DiamondPlate
+kw=Instance.new("Weld",e)
+kw.Part0=k
+kew.Part1=e
 end
 end)
