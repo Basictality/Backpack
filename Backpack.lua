@@ -47,24 +47,12 @@ ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
 
+f=Instance.new("Part",a)
+f.Size = game.Players.LocalPlayer.Character["Left Leg"].Size
+f.Name = "Left Leg"
+f.Color = Color3.new(0,0,0)
+f.Material = "Marble"
 
-p=game.Players.LocalPlayer
-c=p.Character
-m=p:GetMouse()
-Player = game:GetService("Players").LocalPlayer
-mouse=Player:GetMouse()
-Cha = Player.Character
-mouse.KeyDown:connect(function(key)
-key:lower()
-if key == "e" then
-k = Instance.new("Part",a)
-kw=Instance.new("Weld",a)
-kw.Part0=k
-kw.Part1=e
-k.Size = Vector3.new(10,2,1)
-k.Material = "DiamondPlate
-kw=Instance.new("Weld",e)
-kw.Part0=k
-kew.Part1=e
-end
-end)
+fw=Instance.new("Weld",f)
+fw.Part0=game.Players.LocalPlayer.Character["Left Leg"]
+fw.Part1=f
