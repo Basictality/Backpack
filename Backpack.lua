@@ -51,7 +51,19 @@ f=Instance.new("Part",a)
 f.Size = Vector3.new(1,2.5,1)
 f.Name = "Left Leg"
 f.Color = Color3.new(0,0,0)
+f.CanCollide = true
 
 fw=Instance.new("Weld",f)
 fw.Part0=game.Players.LocalPlayer.Character["Left Leg"]
 fw.Part1=f
+
+g=Instance.new("Part",f)
+g.Name = "Cuff"
+Instance.new("CylinderMesh",g)
+g.Size = Vector3.new(1,1,1)
+g.Color = Color3.new(255,255,255)
+
+gw=Instance.new("Weld",g)
+gw.Part0=g
+gw.Part1=f
+gw.C0=CFrame.new(0,-3,0)
