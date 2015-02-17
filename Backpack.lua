@@ -54,14 +54,13 @@ f.Color = Color3.new(0,0,0)
 f.CanCollide = true
 
 fw=Instance.new("Weld",f)
-fw.Part0=game.Players.LocalPlayer.Character["Left Leg"]
+fw.Part0=game.Players.LocalPlayer.Character["Left Arm"]
 fw.Part1=f
 
 g=Instance.new("Part",f)
 g.Name = "Cuff"
-Instance.new("CylinderMesh",g)
 g.FormFactor = "Custom"
-g.Size = Vector3.new(1,0.1,1)
+g.Size = Vector3.new(1.5,1,1)
 g.Color = Color3.new(255,255,255)
 
 gw=Instance.new("Weld",g)
