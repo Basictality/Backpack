@@ -301,10 +301,11 @@ ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
 f=Instance.new("Part",a1)
-f.Size = Vector3.new(2,0.5,2)
+f.FormFactor = "Custom"
+f.Size = Vector3.new(0,0.5,2)
 f.Material = "Marble"
 f.Color = Color3.new(1,0,0)
 
 fw=Instance.new("Weld",f)
-fw.Part0=game.Players.LocalPlayer.Character["Left Leg"]
+fw.Part0=a
 fw.Part1=f
