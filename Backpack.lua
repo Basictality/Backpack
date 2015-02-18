@@ -17,8 +17,6 @@ origPow = Instance.new("BodyGyro").P
 speed = 0
 maxspd = 1000
 
-shoecol = BrickColor.Random().Name
-
 
 NewRS = nil
 NewLS = nil
@@ -82,10 +80,8 @@ function startfloat()
 	gyro.maxTorque = maxTrq
 	
 	rfire = Instance.new("Fire", a)
-	rfire.Size = 2.5
+	rfire.Size = 5
 	rfire.Heat = -10
-	rfire.Color = Color3.new(0,0,1)
-	rfire.SecondaryColor = Color3.new(0,0,1)
 	
 	
 	isfloating = true
@@ -244,6 +240,13 @@ plyr.Character.Head.Touched:connect(function(hit)
         debounce = false
     end
 end)
+
+
+
+
+
+
+
 
 
 
