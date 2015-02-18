@@ -300,13 +300,7 @@ ew.Part0=e
 ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
-f1=Instance.new("Part",a)
-f1.Size = Vector3.new(1,1.5,1)
-f1.Color = Color3.new(1,0,0)
-f1.CanCollide = false
-f1.Material = "Marble"
-
-fw=Instance.new("Weld",f1)
-fw.Part0=a
-fw.Part1=f
-fw.C0=CFrame.new(0,3,0)
+f=Instance.new("Part",a)
+f.Size = Vector3.new(1.5,1.5,1)
+f.Material = "Marble"
+f.Color = Color3.new(1,0,0)
