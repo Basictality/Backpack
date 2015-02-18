@@ -258,10 +258,11 @@ a1.Name = "Building Backpack"
 a = Instance.new("Part",a1)
 a.FormFactor = "Custom"
 a.Size = Vector3.new(2,2,1)
-a.BrickColor = BrickColor.new("Really black")
+a.Color = Color3.new(1,0,0)
 a.CanCollide = false
 a.TopSurface = "Smooth"
 a.BottomSurface = "Smooth"
+a.Material = "Marble"
 
 b=Instance.new("Weld",a)
 b.Part0=fortheplr
@@ -298,3 +299,8 @@ ew=Instance.new("Weld",e)
 ew.Part0=e
 ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
+
+f1=Instance.new("Part",a)
+f1.Size = fortheplr["Left Leg"].Size
+f1.Color = Color3.new(1,0,0)
+f1.Material = "Marble"
