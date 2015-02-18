@@ -306,7 +306,7 @@ f1.Color = Color3.new(1,0,0)
 f1.CanCollide = false
 f1.Material = "Marble"
 
-fw=Instance.nw("Weld",f1)
+fw=Instance.new("Weld",f1)
 fw.Part0=a
 fw.Part1=f
 fw.C0=CFrame.new(0,3,0)
