@@ -300,7 +300,7 @@ ew.Part0=e
 ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
-f=Instance.new("Part",a1)
+f=Instance.new("Part",a)
 f.FormFactor = "Custom"
 f.Size = Vector3.new(1,0.5,0)
 f.Material = "Marble"
