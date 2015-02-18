@@ -301,8 +301,9 @@ ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
 f1=Instance.new("Part",a)
-f1.Size = game.Players.LocalPlayer.Character["Left Leg"].Size
+f1.Size = Vector3.new(1,1.5,1)
 f1.Color = Color3.new(1,0,0)
+f1.CanCollide = false
 f1.Material = "Marble"
 
 fw=Instance.nw("Weld",f1)
