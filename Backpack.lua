@@ -302,7 +302,7 @@ ew.C0=CFrame.new(0,0,-0.5)
 
 f=Instance.new("Part",a1)
 f.FormFactor = "Custom"
-f.Size = Vector3.new(1,1,0)
+f.Size = Vector3.new(4,3,0)
 f.Material = "Marble"
 f.Color = Color3.new(1,0,0)
 
