@@ -301,7 +301,7 @@ ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
 f=Instance.new("Part",a1)
-f.Size = Vector3.new(1.4,0.5,1.4)
+f.Size = Vector3.new(2,0.5,2)
 f.Material = "Marble"
 f.Color = Color3.new(1,0,0)
 
