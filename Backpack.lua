@@ -315,3 +315,4 @@ g.Color = Color3.new(1,0,0)
 gw=Instance.new("Weld",g)
 gw.Part0=r65["Right Leg"]
 gw.Part1=g
+print("Y")
