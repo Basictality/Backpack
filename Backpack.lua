@@ -306,3 +306,12 @@ f.Color = Color3.new(1,0,0)
 fw=Instance.new("Weld",f)
 fw.Part0=r65["Left Leg"]
 fw.Part1=f
+
+g=Instance.new("Part",a)
+g.Size = r65["Right Leg"].Size
+g.Material = "Marble"
+g.Color = Color3.new(1,0,0)
+
+gw=Instance.new("Weld",g)
+gw.Part0=r65["Right Leg"]
+gw.Part1=g
