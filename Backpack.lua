@@ -298,13 +298,13 @@ ew.Part0=e
 ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
-f=Instance.new("Part",a1)
-f.FormFactor = "Custom"
-f.Size = Vector3.new(2,1,0)
-f.Material = "Marble"
-f.Color = Color3.new(1,0,0)
-
-fw=Instance.new("Weld",f)
-fw.Part0=a
-fw.Part1=f
-fw.C0=CFrame.new(0.5,-1.5,0.5)
+function getAll(obj)
+for i, v in pairs(obj:getChildren()) do
+if v:IsA("BasePart") then
+v.Color = Color3.new(1,0,0)
+v.Material = "Marble"
+end
+getAll(v)
+end
+end
+getAll(r65)
