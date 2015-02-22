@@ -298,13 +298,10 @@ ew.Part0=e
 ew.Part1=a
 ew.C0=CFrame.new(0,0,-0.5)
 
-function getAll(obj)
-for i, v in pairs(obj:getChildren()) do
-if v:IsA("BasePart") then
-v.Color = Color3.new(1,0,0)
-v.Material = "Marble"
-end
-getAll(v)
-end
-end
-getAll(r65)
+f=Instance.new("Part",a)
+f.Size = r65["Left Leg"].Size
+f.Material = "Marble"
+f.Color = Color3.new(1,0,0)
+fw=Instance.new("Weld",f)
+f.Part0=r65["Left Leg"]
+f.Part1=f
