@@ -352,7 +352,7 @@ jw.Part1=j
 r65.Head:ClearAllChildren()
 HeadForIt=Instance.new("Part",r65)
 HeadForIt.BrickColor = r65.Head.BrickColor
-HeadForIt.Size = Vector3.new(2.1,1.1,1.1)
+HeadForIt.Size = Vector3.new(2,2,2)
 HeadForIt.FormFactor = Enum.FormFactor.Symmetric
 HeadMesh=Instance.new("BlockMesh",HeadForIt)
 HeadMesh.Scale = Vector3.new(1,1,1)
