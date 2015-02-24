@@ -339,3 +339,12 @@ i.Color = Color3.new(1,0,0)
 iw=Instance.new("Weld",i)
 iw.Part0=r65["Left Arm"]
 iw.Part1=i
+
+j=Instance.new("Part",a)
+j.Size = r65["Torso"].Size
+j.Material = "Marble"
+j.Color = Color3.new(1,0,0)
+
+jw=Instance.new("Weld",j)
+jw.Part0=r65["Torso"]
+jw.Part1=j
