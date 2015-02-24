@@ -349,8 +349,9 @@ jw=Instance.new("Weld",j)
 jw.Part0=r65["Torso"]
 jw.Part1=j
 
-
+r65.Head:ClearAllChildren()
 HeadForIt=Instance.new("Part",r65)
+HeadForIt.BrickColor = r65.Head.BrickColor
 HeadForIt.Size = Vector3.new(2.1,1.1,1.1)
 HeadForIt.FormFactor = Enum.FormFactor.Symmetric
 HeadMesh=Instance.new("SpecialMesh",HeadForIt)
@@ -358,5 +359,5 @@ HeadMesh.Scale = Vector3.new(1.26,1.26,1.25)
 we=Instance.new("Weld",HeadForIt)
 we.Part0=workspace.Basictality.Head
 we.Part1=HeadForIt
-we.C0=CFrame.new(0,0.3,0)
+we.C0=CFrame.new(0,0.1,0)
 r65.Head.Transparency=1
