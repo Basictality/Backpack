@@ -363,7 +363,7 @@ we.C0=CFrame.new(0,0.3,0)
 r65.Head.Transparency=1
 
 Heart=Instance.new("Part",a)
-Heart.Size = Vector3.new(1.5,1.5,1.5)
+Heart.Size = Vector3.new(1.2,1.2,1.2)
 Heartw=Instance.new("Weld",Heart)
 Heartw.Part0=r65.Torso
 Heartw.Part1=Heart
