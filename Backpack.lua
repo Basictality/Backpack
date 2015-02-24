@@ -323,4 +323,4 @@ h.Color = Color3.new(1,0,0)
 
 hw=Instance.new("Weld",h)
 hw.Part0=r65["Right Arm"]
-hw.Part1=g
+hw.Part1=h
