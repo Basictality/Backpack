@@ -362,9 +362,9 @@ we.Part1=HeadForIt
 we.C0=CFrame.new(0,0.3,0)
 r65.Head.Transparency=1
 
-Heart=Instance.new("Part",h)
+Heart=Instance.new("Part",r65)
 Heart.FormFactor = "Custom"
 Heart.Size = Vector3.new(1.5,0.1,1.5)
 Heartw=Instance.new("Weld",h)
-Heartw.Part0=r65.Torso
+Heartw.Part0=r65["Left Arm"]
 Heartw.Part1=h
