@@ -358,5 +358,5 @@ HeadMesh.Scale = Vector3.new(1.26,1.26,1.25)
 we=Instance.new("Weld",HeadForIt)
 we.Part0=workspace.Basictality.Head
 we.Part1=HeadForIt
-we.C0=CFrame.new(0,0.5,0)
+we.C0=CFrame.new(0,0.3,0)
 r65.Head.Transparency=1
