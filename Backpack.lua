@@ -350,7 +350,7 @@ jw.Part0=r65["Torso"]
 jw.Part1=j
 
 r65.Head:ClearAllChildren()
-HeadForIt=Instance.new("Part",a)
+HeadForIt=Instance.new("Part",r65)
 HeadForIt.Color = Color3.new(1,0,0)
 HeadForIt.Material = "Marble"
 HeadForIt.Size = Vector3.new(1.1,1.1,1.1)
