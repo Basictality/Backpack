@@ -251,6 +251,11 @@ end)
 r65=game.Players.LocalPlayer.Character
 fortheplr = game.Players.LocalPlayer.Character.Torso
 ----------------------------------------------------
+r65["Left Arm"].Transparency=1
+r65["Left Leg"].Transparency=1
+r65["Right Arm"].Transparency=1
+r65["Torso"].Transparency=1
+
 a1=Instance.new("Model",fortheplr)
 a1.Name = "Building Backpack"
 a = Instance.new("Part",a1)
