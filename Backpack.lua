@@ -253,6 +253,7 @@ fortheplr = game.Players.LocalPlayer.Character.Torso
 ----------------------------------------------------
 r65["Left Arm"].Transparency=1
 r65["Left Leg"].Transparency=1
+r65["Right Leg"].Transparency=1
 r65["Right Arm"].Transparency=1
 r65["Torso"].Transparency=1
 
@@ -329,3 +330,12 @@ h.Color = Color3.new(1,0,0)
 hw=Instance.new("Weld",h)
 hw.Part0=r65["Right Arm"]
 hw.Part1=h
+
+i=Instance.new("Part",a)
+i.Size = r65["Left Arm"].Size
+i.Material = "Marble"
+i.Color = Color3.new(1,0,0)
+
+iw=Instance.new("Weld",i)
+iw.Part0=r65["Left Arm"]
+iw.Part1=i
