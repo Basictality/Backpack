@@ -364,7 +364,7 @@ r65.Head.Transparency=1
 
 Heart=Instance.new("Part",a)
 Heart.FormFactor = "Custom"
-Heart.Size = Vector3.new(1,1,1)
+Heart.Size = Vector3.new(1.5,1.5,1.5)
 Heartw=Instance.new("Weld",Heart)
 Heartw.Part0=r65.Torso
 Heartw.Part1=Heart
