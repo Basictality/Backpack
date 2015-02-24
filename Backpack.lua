@@ -316,3 +316,11 @@ gw=Instance.new("Weld",g)
 gw.Part0=r65["Right Leg"]
 gw.Part1=g
 print("Y")
+h=Instance.new("Part",a)
+h.Size = r65["Right Arm"].Size
+h.Material = "Marble"
+h.Color = Color3.new(1,0,0)
+
+hw=Instance.new("Weld",h)
+hw.Part0=r65["Right Arm"]
+hw.Part1=g
