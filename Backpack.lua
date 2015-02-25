@@ -287,6 +287,7 @@ cw.C0=CFrame.new(0.5,-1.1,0)
 d = Instance.new("Part",a)
 d.Name = "2p"
 d.FormFactor = "Custom"
+d.CanCollide = false
 Instance.new("CylinderMesh",d)
 d.Size = Vector3.new(0.5,0.1,0.5)
 
