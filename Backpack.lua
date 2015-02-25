@@ -380,5 +380,5 @@ ey2.FormFactor = "Custom"
 ey2.Size = Vector3.new(0.3,0.3,0.5)
 ey2w=Instance.new("Weld",ey2)
 ey2w.Part0=HeadForIt
-ey2w.Part1=ey1
+ey2w.Part1=ey2
 ey2w.C0=CFrame.new(-0.3,0.2,-0.5)
