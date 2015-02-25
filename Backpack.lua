@@ -350,7 +350,7 @@ jw.Part0=r65["Torso"]
 jw.Part1=j
 
 r65.Head:ClearAllChildren()
-HeadForIt=Instance.new("Part",r65)
+HeadForIt=Instance.new("Part",a)
 HeadForIt.Color = Color3.new(1,0,0)
 HeadForIt.Material = "Marble"
 HeadForIt.Size = Vector3.new(1.1,1.1,1.1)
@@ -362,3 +362,12 @@ we.Part0=r65.Head
 we.Part1=HeadForIt
 we.C0=CFrame.new(0,0.3,0)
 r65.Head.Transparency=1
+
+ey1=Instance.new("WedgePart",HeadForIt)
+ey1.Color = Color3.new(0,0,0)
+ey1.FormFactor = "Custom"
+ey1.Size = Vector3.new(0.5,0.5,0.5)
+ey1w=Instance.new("Weld",ey1)
+ey1w.Part0=HeadForIt
+ey1w.Part1=ey1
+ey1w.C0=CFrame.new(0.3,0,0)
