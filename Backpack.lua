@@ -298,6 +298,7 @@ dw.C0=CFrame.new(-0.5,-1.1,0)
 
 e=Instance.new("Part",a)
 e.FormFactor = "Custom"
+e.CanCollide = false
 e.Size = Vector3.new(2,0.8,0)
 
 ew=Instance.new("Weld",e)
