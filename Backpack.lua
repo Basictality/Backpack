@@ -321,7 +321,7 @@ g.Color = Color3.new(1,0,0)
 gw=Instance.new("Weld",g)
 gw.Part0=r65["Right Leg"]
 gw.Part1=g
-print("Y")
+
 h=Instance.new("Part",a)
 h.Size = r65["Right Arm"].Size
 h.Material = "Marble"
@@ -365,9 +365,11 @@ r65.Head.Transparency=1
 
 ey1=Instance.new("WedgePart",HeadForIt)
 ey1.Color = Color3.new(0,0,0)
+ey1.CanCollide = false
 ey1.FormFactor = "Custom"
 ey1.Size = Vector3.new(0.5,0.5,0.5)
 ey1w=Instance.new("Weld",ey1)
 ey1w.Part0=HeadForIt
 ey1w.Part1=ey1
 ey1w.C0=CFrame.new(0.3,0.2,0.5)
+print('ey')
