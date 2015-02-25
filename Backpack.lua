@@ -373,7 +373,7 @@ ey1w.Part0=HeadForIt
 ey1w.Part1=ey1
 ey1w.C0=CFrame.new(0.3,0.2,-0.5)
 
-ey2=Instance.new("Part",HeadForIt)
+ey2=Instance.new("Part",ey1)
 ey2.Color = Color3.new(0,0,0)
 ey2.CanCollide = false
 ey2.FormFactor = "Custom"
