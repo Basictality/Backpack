@@ -389,7 +389,7 @@ horn1=Instance.new("Part",r65)
 horn1.CanCollide = false
 horn1.FormFactor = "Custom"
 hornmesh=Instance.new("CylinderMesh",horn1)
-horn1.Size = Vector3.new(0.5,0.5,1.5)
+horn1.Size = Vector3.new(0.5,1,1.5)
 
 weldhorn=Instance.new("Weld",horn1)
 weldhorn.Part0=horn1
