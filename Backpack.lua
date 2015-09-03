@@ -414,7 +414,7 @@ horn2=Instance.new("Part",r65)
 horn2.CanCollide = false
 horn2.FormFactor = "Custom"
 hornmesh2=Instance.new("CylinderMesh",horn2)
-horn2.Size = Vector3.new(0.5,0.5,1.5)
+horn2.Size = Vector3.new(0.5,0.5,1)
 
 weldhorn2=Instance.new("Weld",horn2)
 weldhorn2.Part0=horn2
@@ -424,13 +424,13 @@ weldhorn2.C0=CFrame.new(-0.3,-1.1,0)
 horn2t=Instance.new("Part",r65)
 horn2t.FormFactor = "Custom"
 horn2t.CanCollide = false
-horn2t.Size = Vector3.new(0.5,0.5,0.5)
+horn2t.Size = Vector3.new(0.5,0,1)
 hornmesh2=Instance.new("CylinderMesh",horn2t)
 
 weffh=Instance.new("Weld",horn2t)
 weffh.Part0=horn2t
 weffh.Part1=horn2
 weffh.C0=CFrame.new(0,-0.5,0)
-weffh.C1 = CFrame.fromEulerAnglesXYZ(0,1.5,0.1)
+weffh.C1 = CFrame.fromEulerAnglesXYZ(0,1.5,0.5)
 fh=Instance.new("Fire",horn2t)
 fh.Size = 0.1
