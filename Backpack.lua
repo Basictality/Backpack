@@ -424,7 +424,7 @@ weldhorn2.C0=CFrame.new(-0.3,-1.1,0)
 horn2t=Instance.new("Part",r65)
 horn2t.FormFactor = "Custom"
 horn2t.CanCollide = false
-horn2t.Size = Vector3.new(0.5,0.5,1.5)
+horn2t.Size = Vector3.new(0.5,0.5,0.5)
 hornmesh2=Instance.new("CylinderMesh",horn2t)
 
 weffh=Instance.new("Weld",horn2t)
