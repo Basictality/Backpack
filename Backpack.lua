@@ -310,6 +310,7 @@ f=Instance.new("Part",a)
 f.Size = r65["Left Leg"].Size
 f.Material = "Marble"
 f.Color = Color3.new(1,0,0)
+f.CanCollide = false
 
 fw=Instance.new("Weld",f)
 fw.Part0=r65["Left Leg"]
@@ -319,6 +320,7 @@ g=Instance.new("Part",a)
 g.Size = r65["Right Leg"].Size
 g.Material = "Marble"
 g.Color = Color3.new(1,0,0)
+g.CanCollide = false
 
 gw=Instance.new("Weld",g)
 gw.Part0=r65["Right Leg"]
